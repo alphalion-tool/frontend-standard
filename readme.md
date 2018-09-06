@@ -1,9 +1,8 @@
 
 ## Front End Development Standard
 
-- [JS](https://github.com/alphalion-tool/frontend-standard/blob/master/js.md)
-- [CSS](https://github.com/alphalion-tool/frontend-standard/blob/master/css.md)
-- [git](https://github.com/alphalion-tool/frontend-standard/blob/master/git.md)
-- [gitflow](https://github.com/alphalion-tool/frontend-standard/blob/master/gitflow.md)
-- [test](https://github.com/alphalion-tool/frontend-standard/blob/master/test.md)
-
+- [js standard](https://github.com/alphalion-tool/frontend-standard/blob/master/js.md)
+- [css standard](https://github.com/alphalion-tool/frontend-standard/blob/master/css.md)
+- [git commit msg](https://github.com/alphalion-tool/frontend-standard/blob/master/git.md)
+- [git flow](https://github.com/alphalion-tool/frontend-standard/blob/master/gitflow.md)
+- [gitlab merge request](https://github.com/alphalion-tool/frontend-standard/blob/master/gitlab.md)
