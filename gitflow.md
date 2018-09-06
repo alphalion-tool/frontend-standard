@@ -10,13 +10,13 @@
 
 根据[Vincent Driessen](http://nvie.com/about/)的文章描述，git flow 的工作流程图如下：
 
-![Vincent Driessen git flow](static/images/markdown/gitflow/git-flow.png)
+![Vincent Driessen git flow](https://raw.githubusercontent.com/alphalion-tool/frontend-standard/master/images/gitflow/git-flow.png)
 
 git flow 的主要分支有两个，master和trunk。这两个分支是长期维护的，并且这两个分支的代码应该是同步的。另外使用其他的临时性分支来进行项目的开发维护。
 
 我们自己的流程与上图提到的流程略有不同。以下是详细的描述：
 
-![Git flow inside](static/images/markdown/gitflow/git-flow-inside.svg)
+![Git flow inside](https://raw.githubusercontent.com/alphalion-tool/frontend-standard/master/images/gitflow/git-flow-inside.svg)
 
 ## 1. master 主分支
 
@@ -60,27 +60,27 @@ trunk分支主要用于开发管理，作为功能的集成分支。当有新的
 
     在创建测试分支的时候，需要设置为保护分支，建议从gitlab直接创建，并设置为保护分支。然后再checkout
 
-    ![点击跳转分支管理页面](static/images/markdown/gitflow/branch-select.jpg)
+    ![点击跳转分支管理页面](https://raw.githubusercontent.com/alphalion-tool/frontend-standard/master/images/gitflow/branch-select.jpg)
 
     点击跳转分支管理页面
 
-    ![点击跳转分支管理页面](static/images/markdown/gitflow/branch-new.jpg)
+    ![点击跳转分支管理页面](https://raw.githubusercontent.com/alphalion-tool/frontend-standard/master/images/gitflow/branch-new.jpg)
 
     点击创建新分支
 
-    ![点击创建新分支](static/images/markdown/gitflow/branch-test.png)
+    ![点击创建新分支](https://raw.githubusercontent.com/alphalion-tool/frontend-standard/master/images/gitflow/branch-test.png)
 
     选择新建的分支
 
-    ![选择新建的分支](static/images/markdown/gitflow/branch-test-setting.png)
+    ![选择新建的分支](https://raw.githubusercontent.com/alphalion-tool/frontend-standard/master/images/gitflow/branch-test-setting.png)
 
     打开新分支的设置页面
 
-    ![打开新分支的设置页面](static/images/markdown/gitflow/branch-test-setting-choice.png)
+    ![打开新分支的设置页面](https://raw.githubusercontent.com/alphalion-tool/frontend-standard/master/images/gitflow/branch-test-setting-choice.png)
 
     设置分支为保护分支
 
-    ![设置分支为保护分支](static/images/markdown/gitflow/branch-test-protect.png)
+    ![设置分支为保护分支](https://raw.githubusercontent.com/alphalion-tool/frontend-standard/master/images/gitflow/branch-test-protect.png)
 
 与此同时，从测试分支检出功能开发分支（dev）：
 
@@ -123,11 +123,11 @@ trunk分支主要用于开发管理，作为功能的集成分支。当有新的
 
 进入gitlab dev分支页面，创建一个合并请求：
 
-![选择合并请求分支](static/images/markdown/gitflow/dev-create-merge.png)
+![选择合并请求分支](https://raw.githubusercontent.com/alphalion-tool/frontend-standard/master/images/gitflow/dev-create-merge.png)
 
 创建合并请求
 
-![创建合并请求](static/images/markdown/gitflow/dev-merge.png)
+![创建合并请求](https://raw.githubusercontent.com/alphalion-tool/frontend-standard/master/images/gitflow/dev-merge.png)
 
 合并之后即可进行提测。测试期间产生的bug，在开发本地修改合并到dev之后，再同步dev代码到test分支上进行下一轮测试，如此循环往复直到测试验收通过。
 

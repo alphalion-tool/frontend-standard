@@ -1,6 +1,4 @@
-# AlphaLion前端开发规范
-
-![AlphaLion](/static/images/markdown/alphalion.png)
+# 前端开发规范
 
 ## 通用前端
 
