@@ -1,11 +1,11 @@
 
 ## GIT使用说明
 
-### git commit message 格式
+### 1, git commit message 格式
 
 格式为：`<type>(<scope>): <subject>`
 
-### type可选为：
+#### type可选为：
 
 - feat   `feature，新功能`
 - fix       `bug fix，修复bug`
@@ -18,14 +18,14 @@
 - chore     `杂事，维护性的东西`
 - revert    `revert`
 
-### scope为：
+#### scope为：
 scope为模块。比如说我在修改TimeTick，则为TimeTick
 
-### subject为：
+#### subject为：
 commit的内容
 
 
-## 举例
+#### 举例
 
 `git commit -m 'feat(TimeTick): Add TimeTick module'`
 
@@ -42,8 +42,13 @@ commit的内容
 `git commit -m 'refactor(TimeTick): 重构TimeTick模块'`
 
 
+#### 生成changelog
+使用[conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)来生成changelog
+        
+    conventional-changelog -p angular -i CHANGELOG.md -s
 
-## git 常用操作
+
+### 2, git 常用操作
 - 查看文件的所有提交
     
     git log --follow filename
