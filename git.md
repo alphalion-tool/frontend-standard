@@ -72,6 +72,9 @@
 
 #### Related
 - [conventionalcommits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/)
+- [CommitLint](https://github.com/marionebl/commitlint)
+- [husky](https://github.com/typicode/husky) for git hooks
+
 
 ### 2, git 常用操作
 - 查看文件的所有提交
