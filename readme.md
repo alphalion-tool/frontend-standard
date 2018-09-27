@@ -14,3 +14,4 @@ test prepare-commit-msg
 test prepare-commit-msg
 test prepare-commit-msg
 test prepare-commit-msg
+test post commit
