@@ -9,3 +9,4 @@
 test patch
 1
 test-pre-commit-msg
+test prepare commig msg
