@@ -8,3 +8,4 @@
 - [gitlab merge request](https://github.com/alphalion-tool/frontend-standard/blob/master/gitlab.md)
 test patch
 1
+test-pre-commit-msg
