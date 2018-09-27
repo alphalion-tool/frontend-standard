@@ -12,3 +12,5 @@ test-pre-commit-msg
 test prepare commig msg
 test prepare-commit-msg
 test prepare-commit-msg
+test prepare-commit-msg
+test prepare-commit-msg
