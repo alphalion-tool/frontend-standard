@@ -22,6 +22,21 @@ var validateMessage = function(message) {
     if (!match) {
         error('does not match "<type>(<scope>): <subject>" !');
         isValid = false;
+    } else {
+        var firstLine = match[1];
+        var type = match[2];
+        var scope = match[4];
+        var subject = match[5];
+
+        if (firstLine.length > MAX_LENGTH) {
+            error('is longer than %d characters !', MAX_LENGTH);
+            isValid = false;
+        }
+
+        if (TYPES !== '*' && TYPES.indexOf(type) === -1) {
+            error('"%s" is not allowed type !', type);
+            isValid = false;
+        }
     }
 
     // Display original message when it is not valid, otherwise it will be lost
@@ -37,7 +52,6 @@ var commitMsgFile = process.argv[2] || './.git/COMMIT_EDITMSG';
 var incorrectLogFile = commitMsgFile.replace('COMMIT_EDITMSG', 'logs/incorrect-commit-msgs');
 
 fs.readFile(commitMsgFile, function(err, buffer) {
-    console.log(buffer);
     var msg = firstLineFromBuffer(buffer);
 
     function hasToString(x) {
