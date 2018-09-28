@@ -15,7 +15,6 @@ function hookInject (filename) {
             encoding: 'utf8',
             mode: 0o777
         });
-
         console.log(filename + ' inject done ')
     }
 }

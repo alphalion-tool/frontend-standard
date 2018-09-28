@@ -12,7 +12,7 @@ try {
     // git grep 命令会执行 perl 的正则匹配所有满足冲突条件的文件
     results = execSync(`git grep -n -P "${isConflictRegular}"`, { encoding: 'utf-8' })
 } catch (e) {
-    console.log('没有发现冲突，等待 commit')
+    // console.log('没有发现冲突，等待 commit')
     process.exit(0)
 }
 
