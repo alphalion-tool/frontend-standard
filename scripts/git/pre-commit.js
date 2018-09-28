@@ -3,7 +3,7 @@
 
 const execSync = require('child_process').execSync
 
-// git 对所有冲突的地方都会生成下面这种格式的信息，所以写个检测冲突文件的正则
+// git 对所有冲突的地方都会生成下面这种格式的信息
 const isConflictRegular = "^<<<<<<<\\s|^=======$|^>>>>>>>\\s"
 
 let results;

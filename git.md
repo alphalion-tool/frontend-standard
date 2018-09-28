@@ -1,6 +1,4 @@
 
-=======
-
 ## GIT使用说明
 
 ### 1, git commit message 格式
