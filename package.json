@@ -1,0 +1,20 @@
+{
+  "name": "frontend-standard",
+  "version": "1.0.0",
+  "description": "frontend-standard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./scripts/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphalion-tool/frontend-standard.git"
+  },
+  "author": "deju.tu@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphalion-tool/frontend-standard/issues"
+  },
+  "homepage": "https://github.com/alphalion-tool/frontend-standard#readme"
+}
