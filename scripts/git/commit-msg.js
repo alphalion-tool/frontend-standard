@@ -39,7 +39,6 @@ var validateMessage = function(message) {
         }
     }
 
-    // Display original message when it is not valid, otherwise it will be lost
     if (!isValid && message) {
         console.log(message);
     }
