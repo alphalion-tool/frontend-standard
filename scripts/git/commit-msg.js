@@ -37,6 +37,7 @@ var commitMsgFile = process.argv[2] || './.git/COMMIT_EDITMSG';
 var incorrectLogFile = commitMsgFile.replace('COMMIT_EDITMSG', 'logs/incorrect-commit-msgs');
 
 fs.readFile(commitMsgFile, function(err, buffer) {
+    console.log(buffer);
     var msg = firstLineFromBuffer(buffer);
 
     function hasToString(x) {
