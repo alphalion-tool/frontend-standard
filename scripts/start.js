@@ -21,5 +21,6 @@ function hookInject (filename) {
 }
 
 
+
 hookInject('pre-commit');
 hookInject('commit-msg');
